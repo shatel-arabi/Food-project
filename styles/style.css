@@ -1,0 +1,9 @@
+*{margin: 0;}
+
+ul>li{list-style: none;}
+ul{
+    display: flex;
+    gap: 30px
+}
+nav{display: flex; background-color: #fff9ea;
+height: 108px; }

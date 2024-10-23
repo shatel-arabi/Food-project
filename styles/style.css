@@ -50,3 +50,13 @@ nav {
     font-size: 50px;
     margin-bottom: 21px;
 }
+/* about style */
+.about-container{
+    margin-top: 80px;
+    text-align: center;
+}
+.about-content{
+    margin-top:32px;
+    display: flex;
+    justify-content: space-around;
+}

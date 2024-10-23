@@ -1,28 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food-Project</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <img style="height:47px; width:150px;"  src="./images/logo.png" alt="">
-           <ul>
-            <li>Home</li>
-            <li>Menu</li>
-            <li>How it works</li>
-            <li>About</li>
-            <li>Contact</li>
-           </ul> 
-           <div><i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
-            <button>Sign in</button></div>
-        </nav>
+      <nav>
+        <img
+          style="height: 47px; width: 150px"
+          src="./images/logo.png"
+          alt=""
+        />
+        <ul>
+          <li class="list-item">Home</li>
+          <li class="list-item">Menu</li>
+          <li class="list-item">How it works</li>
+          <li class="list-item">About</li>
+          <li class="list-item">Contact</li>
+        </ul>
+        <div>
+          <i
+            class="fa-solid fa-magnifying-glass fa-xl"
+            style="margin-right: 32px"
+          ></i>
+          <i
+            class="fa-solid fa-cart-shopping fa-xl"
+            style="margin-right: 32px"
+          ></i>
+          <button class="first-btn">
+            <i
+              class="fa-solid fa-right-to-bracket"
+              style="margin-right: 16px"
+            ></i
+            >Sign in
+          </button>
+        </div>
+      </nav>
     </header>
-    
-</body>
+    <!-- Main/Hero section -->
+    <main>
+      <!-- hero -->
+      <section class="hero-container">
+        <div class="hero-content-1">
+          <div>
+            <h1 class="hero-heading">
+              Be The Fastest In<br />
+              Delivery Your Food
+            </h1>
+            <p style="font-size: 18px; margin-bottom: 23px">
+              Lorem ipsum dolor sit amet, consectetur <br />
+              adipiscing elit ut aliquam, purus sit amet
+            </p>
+            <button class="first-btn">Get Started</button>
+          </div>
+          <img src="./images/img-hero.png" alt="" />
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

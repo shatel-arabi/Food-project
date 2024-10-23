@@ -33,11 +33,20 @@ nav {
 /* hero style */
 .hero-container{
     background-image: url(../images/shapes.png);
-    height:50vh;
+    height:80vh;
     background-size: cover;
+    background-repeat: no-repeat;
 }
+.hero-content-1{
+    display:flex;
+    justify-content: space-around;
 
+}
+.hero-body{
+    display: flex;
+    align-items: center;
+}
 .hero-heading{
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 21px;
 }

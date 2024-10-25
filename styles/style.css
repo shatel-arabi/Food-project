@@ -95,7 +95,7 @@ nav {
 /* footer-style */
 .footer-container{
     background-image: url(../images/bg-image.png);
-    height: 50vh;
+    height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
 }

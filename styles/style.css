@@ -59,14 +59,35 @@ nav {
     margin-top:32px;
     display: flex;
     justify-content: space-around;
+    margin-bottom:80px ;
 }
+/* menu style */
+.menu-container{
+    text-align: center;
+}
+.menu-content{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-top: 32px;
+    /* search 95 box shadow for box shadow */
+   
+
+}
+.items{background-color: #f1f1f1; padding: 40px; border-radius: 15px;
+
+    }
+
+
+
 .review-container{
     display:flex;
+    margin-top: 80px;
 
 }
 .image-container{
     margin-left:160px
 }
 .review-card{
-    
+
 }

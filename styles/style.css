@@ -91,3 +91,22 @@ nav {
 .review-card{
 
 }
+
+/* footer-style */
+.footer-container{
+    background-image: url(../images/bg-image.png);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-content{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    padding: 84px 238px 204px 130px  ;
+    
+
+}
+.foot-items{
+    margin-bottom: 20px;
+}

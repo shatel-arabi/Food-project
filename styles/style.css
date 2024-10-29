@@ -4,7 +4,7 @@
   /* overflow: hidden; */
 }
 body {
-  overflow:auto;
+  overflow-x: hidden;
 }
 
 ul > li {
@@ -96,13 +96,25 @@ nav {
   display: flex;
   gap: 20px;
 }
-
+/* discount style */
+.discount-container {
+  background-image: url(../images/discount.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 332px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
 /* footer-style */
 .footer-container {
   background-image: url(../images/bg-image.png);
   height: 90vh;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-top: 81px;
 }
 .footer-content {
   font-size: 12px;
